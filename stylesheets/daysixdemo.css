@@ -1,0 +1,28 @@
+div#ourcolumns{
+	-webkit-column-count:3; /*Safari and Chrome*/
+	-moz-column-count:3; /*Firefox*/
+	column-count:3; /*Everyone Else */
+	
+	-webkit-column-gap:50px;
+	-moz-column-gap:50px;
+	column-gap:50px;
+	
+	-webkit-column-rule:1px groove black;
+	-moz-column-rule:1px groove black;
+	column-rule:1px groove black;
+	padding: 20px;
+	width: 900px; 
+	color: black;
+	font-size: 12px;
+	border: groove 10px;
+	background-image:url("../images/Ihaveadream.jpeg");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-clip: border-box;
+	text-indent: 50px;
+}
+
+h1{
+	border-bottom: groove;
+}

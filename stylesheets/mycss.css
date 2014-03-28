@@ -1,0 +1,215 @@
+
+
+aside#profilenav{
+	position: relative;
+	border-width: 1px;
+	float: left;
+	height: 600px;
+	width: 250px;
+	background-color: white;
+	box-shadow: 0px 4px 8px 0px;
+	border-top: 30px solid black;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000), to(transparent));
+    background-image: -webkit-linear-gradient(solid black, transparent);
+    background-image:
+        -moz-linear-gradient(#000, transparent),
+        -moz-linear-gradient(#000, transparent)
+    ;
+    background-image:
+        -o-linear-gradient(#000, transparent),
+        -o-linear-gradient(#000, transparent)
+    ;
+    background-image: 
+        linear-gradient(black, transparent),
+        linear-gradient(black, transparent)
+    ;
+    -moz-background-size:5px 100%;
+    background-size:5px 100%;
+    background-position:0 0, 100% 0;
+    background-repeat:no-repeat;
+
+
+}
+
+div.myimage img{
+display: block;
+margin-top: 10px;
+position: relative;
+margin-left: auto;
+margin-right: auto
+}
+section#article1 {
+	
+	background-color: white;
+	position: relative;
+	width: 700px;
+	height: 600px;
+	margin-left: 400px;
+	margin-top: 10px;
+	padding-top: 10px;
+	box-shadow: 0px 4px 8px 2px; 
+	border-top: 30px solid black;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000), to(transparent));
+    background-image: -webkit-linear-gradient(#2E3BA0, transparent);
+    background-image:
+        -moz-linear-gradient(#000, transparent),
+        -moz-linear-gradient(#000, transparent)
+    ;
+    background-image:
+        -o-linear-gradient(#000, transparent),
+        -o-linear-gradient(#000, transparent)
+    ;
+    background-image: 
+        linear-gradient(black, transparent),
+        linear-gradient(black, transparent)
+    ;
+    -moz-background-size:5px 100%;
+    background-size:5px 100%;
+    background-position:0 0, 100% 0;
+    background-repeat:no-repeat;
+
+
+}
+
+
+
+header.subheader{
+
+	position: relative;
+	display: block;
+	width: 450px;
+	height: 115px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:50px;
+	background-position: 0px 0px;
+	background: url(../images/aboutme.png);
+	text-indent: -9999px;
+
+}
+
+h2.Me{
+	text-indent: center;
+	font-size: 40px;
+	position: relative;
+}
+
+
+
+
+
+
+b,p,article{
+font-family: "Calibri", "MS Trebechet", sans-serif;
+font-size: 20px;
+font-style: italic;
+color: black;
+padding-left: 20px;
+margin-left: 20px;
+margin-right: 20px;
+margin-left: 20px;
+display: block;
+
+	}
+
+footer.background2 {
+	border-style: transparent;
+	background-color: black;
+	height: 50px;
+	width: auto;
+	margin-top: 20px;
+	position: relative;
+}
+
+div#menu{
+	background-color: #0c1c7f;
+	margin-top: -17px;
+	width: auto;
+	height: 50px;
+	position: relative;
+	margin-bottom: 50px;
+}
+
+
+div#menu ul li {
+	float: left;
+	list-style: none;
+}
+
+ul {
+
+	margin-left: 1000px;
+}
+div#menu ul li a{
+	background: url("../images/homemenu.png") no-repeat;
+	background-position: 0px 0px;
+	display: inline-block;
+	height: 48px;
+	width: 115px;
+	text-indent: -9999px;
+	position: relative;
+	}
+
+div#menu ul li:first-child a{
+
+background-position: 0px 15px;
+}
+div#menu ul li:first-child a:hover{
+opacity: .4;
+}
+
+div#menu ul li:nth-child(2) a{
+background-position: -115px 15px;
+}
+
+div#menu ul li:nth-child(2) a:hover{
+opacity: .4;
+}
+
+div#menu ul li:nth-child(3) a{
+background-position: -230px 15px;
+}
+div#menu ul li:nth-child(3) a:hover{
+opacity: .4;
+}
+
+
+.listimg{
+	display: block;
+	position: relative;
+	margin-left: 350px;
+	margin-right: 0px;
+	height: 300px;
+	width: 400px;
+	margin-top: 50px;
+	box-shadow: 2px 0px 2px 2.5px;
+}
+
+.listimg:hover{
+	opacity: .8;
+	box-shadow: 2px 0px 2px 2.5px;
+}
+
+
+
+div#container{
+	background: url(../images/background-gradient.jpg);
+	height: auto;
+	
+}
+
+
+h3{
+	position: relative;
+	margin-left: 10px;
+	font-family: "Calibri", "Ms Trebechet", sans-serif;
+	}
+
+h4{
+	position: relative;
+	margin-left: 10px;
+	font-family: "Calibri", "Ms Trebechet", sans-serif;
+	
+
+}
+body {margin-left:0px; margin-top:0px; margin-right:0px; margin-bottom:0px;}

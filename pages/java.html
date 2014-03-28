@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+	<title>day9</title>
+</head>
+
+<body>
+<header>
+	<h1>Day 9 HTML</h1>
+</header>
+<button type="button" onclick="myfunction ()"> STOP</button>
+<button type="button" onclick="addText ('Bob')">YOU SHOULD STOP THAT</button><br>
+
+<canvas id="myCanvas" width ="700" height="500" style ="border:5px solid green;">Your browser does not support the HTML5 canvas tag. I know what you are using<a href="http://www.chrome.com">Get Chrome</a></canvas>
+<script>
+	var c=document.getElementById("myCanvas")
+	var ctx=c.getContext("2d");
+	ctx.fillStyle="blue";
+	ctx.fillRect(0,0,700,450);
+	ctx.closePath();
+
+	ctx.lineWidth=2;
+	ctx.beginPath();
+	ctx.arc(130,400,50,0,2*Math.PI);
+	ctx.stroke();
+	ctx.closePath();
+
+	ctx.beginPath();
+	ctx.arc(475,400,50,0,2*Math.PI);
+	ctx.stroke();
+	ctx.closePath();
+
+	ctx.beginPath();
+	ctx.lineTo(80,390);
+	ctx.lineTo(60,390);
+	ctx.lineTo(20,375);
+	ctx.lineTo(20,300);
+	ctx.lineTo(30,250);
+	ctx.lineTo(80,200);
+	ctx.lineTo(350,200);
+	ctx.lineTo(420,265);
+	ctx.lineTo(520,270);
+	ctx.lineTo(550,275);
+	ctx.lineTo(552,280);
+	ctx.lineTo(552,375);
+	ctx.lineTo(525,390);
+	ctx.fillStyle="black";
+	ctx.stroke();
+	ctx.closePath();
+
+	ctx.beginPath();
+	ctx.lineTo(178,390);
+	ctx.lineTo(427,390);
+	ctx.stroke();
+	ctx.closePath();
+
+
+	ctx.beginPath();
+	ctx.fillStyle="black";
+	ctx.font="30px Georgia";
+	ctx.fillText("My Magic Box", 0, 475);
+	var gradient=ctx.createLinearGradient(0,0,c.width,0);
+	gradient.addColorStop("0", "magenta");
+	gradient.addColorStop("0.25", "green");
+	gradient.addColorStop("0.5", "yellow");
+	gradient.addColorStop("0.75", "red");
+	ctx.strokeStyle=gradient;
+	ctx.strokeText("My Magic Box", 0, 475);
+	ctx.closePath();
+
+function myfunction ()
+	{
+		alert("In the name of Amor")
+	}
+	function addText (name)
+	{
+		document.write("<h3> Or <h1 id=\"name\">" + name +"</h1> will hurt you! </h3>");
+		document.write("<button type=\"button\" onClick=\"changeColor()\">Change Color</button>")
+	}
+	
+	function changeColor ()
+	{
+	var x = document.getElementById("name");
+	x.style.color = "#DC143C";
+	if (x.innerHTML == "Bob")
+	{
+		document.write("<h1>No Bob No</h1>")
+	}
+}
+
+</script>
+
+
+
+</body>
+</html>

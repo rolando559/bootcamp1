@@ -1,0 +1,18 @@
+h1{
+text-align: center;
+font-style: italic;
+color: white;
+border: groove 2px;
+border-color: green;
+border-spacing: inherit;
+width: 200px;
+background-color: green;
+
+}
+table,th,td{
+border-width: 20%;
+border-style: groove;
+}
+thead{
+	text-align: center;
+}

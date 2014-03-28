@@ -1,0 +1,192 @@
+
+section.dir {
+	background-color:  #0c1c7f;
+	height: 40px;
+	width: auto;
+	margin-bottom: 50px;
+	position: relative;
+
+}
+
+ul.nav li a.pornav{
+	background: url("../images/Pornav.png") no-repeat;
+	background-position: 0px 5px;
+	display: inline-block;
+	height: 35px;
+	width: 104px;
+	text-indent: -9999px;
+	position: relative;
+		}
+
+		a.pornav{
+			margin-left: 0px;
+		}
+
+ul.nav li:first-child a.pornav{
+
+background-position: 12px 4px;
+}
+ul.nav li:first-child a.pornav:hover{
+opacity: .5;
+}
+
+ul.nav li:nth-child(2) a.pornav{
+background-position: -200px 4px;
+}
+
+ul.nav li:nth-child(2) a.pornav:hover{
+opacity:.5;
+}
+
+ul.nav li:nth-child(3) a.pornav{
+background-position: -77px 4px;
+}
+ul.nav li:nth-child(3) a.pornav:hover{
+opacity: .5;
+}
+
+
+div#container{
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+ul li {
+
+list-style: none;
+display: inline;
+position: relative;
+text-align: center;
+}
+section#nav {
+	position: relative;
+	height: 80px;
+	width: 100%;
+	margin-top: 0px;
+	background-color: #f2f2f2;
+	box-shadow: 0px 3px 8px 0px;
+
+}
+
+img.title{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+
+div.img {
+	position: relative;
+	height: auto;
+	width: auto;
+	border-bottom: 1px solid black;
+	text-align: center;
+
+}
+
+div.img img{
+height: 300px;
+width: 400px;
+display: block;
+padding-top: 20px;
+margin-right: auto;
+margin-left: auto;
+
+}
+
+div.desc{
+text-align: center;
+border-bottom: 1px solid black;
+width: 500px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+padding-bottom: 10px;
+padding-top: 20px;
+font-weight: medium;
+
+}
+
+label{
+	margin-top: 10px;
+	font-weight: medium;
+	position: relative;
+	font-size: 20px;
+
+}
+
+section#canvas{
+position: relative;
+height: auto;
+width: auto;
+background-color: white;
+margin-top: 55px;
+box-shadow: 0px 2px 8px 0px;
+}
+
+
+
+ul li a{
+	background: url("../images/Portnav.png") no-repeat;
+	background-position: 0px 0px;
+	display: inline-block;
+	height: 28px;
+	width: 112px;
+	text-indent: -9999px;
+	margin-left: 60px;
+	position: relative;
+		}
+
+ul li:first-child a{
+
+background-position: -4px -3px;
+}
+ul li:first-child a:hover{
+opacity: .5;
+}
+
+ul li:nth-child(2) a{
+background-position: -121px -3px;
+}
+
+ul li:nth-child(2) a:hover{
+opacity:.5;
+}
+
+ul li:nth-child(3) a{
+background-position: -240px -3px;
+}
+ul li:nth-child(3) a:hover{
+opacity: .5;
+}
+ul li:nth-child(4) a{
+background-position: -368px -3px;
+}
+ul li:nth-child(4) a:hover{
+opacity: .5;
+}
+
+ul li:nth-child(5) a{
+background-position: -486px -3px;
+}
+ul li:nth-child(5) a:hover{
+opacity: .5;
+}
+
+body{
+	background: url(../images/background-gradient.jpg);
+	margin-top: -15px;
+	margin-left: 0px;
+	margin-right: 0px;
+	height: auto;
+}
+
+div.homepage{
+
+	height: 300px;
+	width: 450px;
+	position: relative;
+	display: block;
+}
+

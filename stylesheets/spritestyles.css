@@ -1,0 +1,127 @@
+
+@-webkit-keyframes myfirst
+{	from{left: 1000px}
+	to{left: 0px}
+}
+@-webkit-keyframes myabout
+{	from{left: 1000px}
+	to{left: 0px}
+}
+
+header h1 a{
+background: url("../images/bglogo.jpg");
+background-position: 0px 0px;
+height: 150px;
+width: 280px;
+display: inline-block;
+text-indent: -9999px;
+position: relative;
+}
+
+
+footer ul li {
+	float: left;
+	list-style: none;
+}
+
+footer ul li a{
+	background: url("../images/icons.png") no-repeat;
+	background-position: 400px 500px;
+	display: inline-block;
+	height: 48px;
+	width: 48px;
+	text-indent: -9999px;
+	position: relative;
+	-webkit-animation:myfirst 2s;
+	animation:myfirst 2s;
+	}
+
+footer ul li:first-child a{
+
+background-position: 0px -96px;
+}
+footer ul li:first-child a:hover{
+background-position: 0px -144px
+}
+
+footer ul li:nth-child(2) a{
+background-position: -48px -96px;
+}
+
+footer ul li:nth-child(2) a:hover{
+background-position: -48px -144px
+}
+
+footer ul li:nth-child(3) a{
+background-position: -96px -96px;
+}
+footer ul li:nth-child(3) a:hover{
+background-position: -96px -144px;
+}
+
+h2 {
+position: absolute;
+left: 900px;
+bottom: 575px;
+}
+
+h2 a {
+	background: url("../images/icons.png") no-repeat;
+	display: inline-block;
+	height: 48px;
+	width: 100px;
+	text-indent: -9999px;
+}
+
+h2 a:hover{
+	background-position: 0 -48px;
+}
+
+header h3 a{
+	background: url("../images/About.png");
+	background-position: 585px 396px;
+	height: 57px;
+	width:148px;
+	text-indent: -9999px;
+	display: inline-block;
+	-webkit-animation:myabout;
+	animation:myabout;
+
+}
+
+h3 a:hover{
+	background: url("../images/About.png");
+	background-position: 436px 396px;
+	height:57px;
+	width: 148px;
+	
+}
+h4 a{
+	background: url("../images/drop.png");
+	background-position: -1px -3px;
+	height: 40px;
+	width: 100px;
+	display: inline-block;
+	position: relative;
+-webkit-animation:myabout 4s;
+animation:myabout 4s;
+}
+#Container{
+	background-color: #ddd;
+	width: 1000px;
+	position: relative;
+	margin: 0 auto;}
+
+
+.clear{
+	clear: both;
+}
+
+fieldset{
+	background-color: blue;
+
+}
+
+header{
+	display: inline;
+}
