@@ -1,7 +1,10 @@
+body{
+	margin-right: 0px; margin-left: 0px; margin-top: 0px; margin-bottom: 0px;
+}
 #container{
 	background-color:#DAEDF8;
 	width: 700px;
-	height: 500px;
+	height: 550px;
 	position: relative;
 	display: block;
 	margin: 0 auto;
@@ -11,6 +14,7 @@
 
 h2{
 	border-bottom: 1px solid #0c1c7f;
+	font-family: "Calibri(bold)", "MS Trebechet", sans-serif;
 	border-width: 3px;
 	margin-left: 10px;
 	margin-right: 10px;
@@ -19,55 +23,82 @@ h2{
 
 }
 
-div#menu{
+label{
+	font-family: "Calibri", "MS Trebechet", sans-serif;
+}
+div.menu{
 	background-color: #0c1c7f;
-	margin-top: -17px;
 	width: auto;
 	height: 50px;
 	position: relative;
 	margin-bottom: 50px;
 }
+div.menu ul {
 
-
-div#menu ul li {
-	float: left;
+	float: right;
 	list-style: none;
+	position: relative;
 }
-
-ul {
-
-	margin-left: 1000px;
-}
-div#menu ul li a{
-	background: url("../images/homemenu.png") no-repeat;
-	background-position: 0px 0px;
+div.menu ul li a{
+	background: url("../images/pornav.png") no-repeat;
+	background-position: 5px -4px;
 	display: inline-block;
 	height: 48px;
-	width: 115px;
+	width: 95px;
 	text-indent: -9999px;
 	position: relative;
 	}
-
-div#menu ul li:first-child a{
-
-background-position: 0px 15px;
+ ul li {
+	
+	display: inline;
 }
-div#menu ul li:first-child a:hover{
+
+
+
+div.menu ul li:first-child a{
+
+background-position: 0px -4px;
+}
+div.menu ul li:first-child a:hover{
 opacity: .4;
 }
 
-div#menu ul li:nth-child(2) a{
-background-position: -115px 15px;
+div.menu ul li:nth-child(2) a{
+background-position: -206px -4px;
 }
 
-div#menu ul li:nth-child(2) a:hover{
+div.menu ul li:nth-child(2) a:hover{
 opacity: .4;
 }
 
-div#menu ul li:nth-child(3) a{
-background-position: -230px 15px;
-}
-div#menu ul li:nth-child(3) a:hover{
-opacity: .4;
+footer{
+	position: relative;
+	height: 50px;
+	background-color: #0c1c7f;
+	width: auto;
+	margin-top: 170px;
+	margin-bottom: 0px;
+	box-shadow: 0 2px 1px 0px;
 }
 
+h4 {
+	position: relative;
+	margin-bottom: auto;
+	font-family: "Calibri(bold)", "MS Trebechet", sans-serif;
+	color: white;
+}
+
+
+div.Facebook a{
+	display: inline-block; 
+	background: url(../images/facebook.jpg) no-repeat;
+	height: 40px;
+	width: 40px;
+	background-position: -6px, 0px;
+	position: relative;
+	text-indent: -9999px;
+}
+
+div.Facebook a:hover{
+	opacity: .4;
+}

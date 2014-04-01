@@ -1,12 +1,25 @@
 
 section.dir {
 	background-color:  #0c1c7f;
-	height: 40px;
+	box-shadow: 0px 2px 3px 0px;
+	border-bottom: 1px;
+	height: 50px;
 	width: auto;
 	margin-bottom: 50px;
 	position: relative;
 
 }
+
+ul.nav li.nav{
+	display: inline;
+}
+
+section.dir ul.nav{
+float: right;
+position: relative;
+list-style: none;
+}
+
 
 ul.nav li a.pornav{
 	background: url("../images/Pornav.png") no-repeat;
@@ -175,18 +188,11 @@ opacity: .5;
 }
 
 body{
-	background: url(../images/background-gradient.jpg);
-	margin-top: -15px;
+	background: url("../images/background-gradient.jpg");
+	margin-top: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
 	height: auto;
 }
 
-div.homepage{
-
-	height: 300px;
-	width: 450px;
-	position: relative;
-	display: block;
-}
 
